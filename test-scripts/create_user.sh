@@ -12,6 +12,6 @@ echo "User $USERNAME is created successfully"
 
 # Verify if User has been created
 
-cate /etc/passwd | grep $USERNAME
+cat /etc/passwd | grep $USERNAME
 
 
